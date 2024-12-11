@@ -41,7 +41,7 @@ def import_movies(args):
     # Process movies through transformer
     transformer.process_movies(movie_ids)
     
-    # Get stats before import
+    # Get stats before importing
     stats = transformer.get_stats()
     
     print("\nReady to import:")
